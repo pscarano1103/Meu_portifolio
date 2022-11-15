@@ -1,0 +1,23 @@
+:root {
+  --background: #e5e5e5;
+  --text: #1f2626;
+  --title: #151717;
+  --roxo: #5222d0;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  background: var(--background);
+}
+
+.container {
+  padding-right: 6%;
+  padding-left: 6%;
+}
+
+.botao {
+  background: var(--roxo);
+  color: #dbffff;
+  border-radius: 6px;
+  padding: 12px 20px 13px;
+}

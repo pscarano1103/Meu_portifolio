@@ -1,0 +1,20 @@
+.menu__lista {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 0;
+}
+
+.menu__link {
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 19.5px;
+  margin-left: 20px;
+  color: var(--text);
+}
+
+.menu__link--home {
+  flex: 3;
+  margin-left: 0;
+}
