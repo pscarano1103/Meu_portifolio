@@ -1,0 +1,38 @@
+.sobre {
+  display: flex;
+  flex-direction: column;
+}
+
+.sobre__titulo {
+  color: var(--title);
+  font-weight: 600;
+  font-size: 1.5rem;
+  line-height: 1.8rem;
+  letter-spacing: 0.04em;
+  margin-bottom: 1.25rem;
+  margin-top: 4.5rem;
+  padding-left: 1.2rem;
+}
+
+.sobre__descricao::before {
+  background-color: var(--roxo);
+  border-radius: 2px;
+  content: "";
+  display: flex;
+  height: 5px;
+  left: -72px;
+  position: relative;
+  top: 65px;
+  transform: rotate(-90deg);
+  width: 116px;
+}
+
+.sobre__descricao {
+  color: var(--text);
+  font-size: 1.2rem;
+  font-weight: 400;
+  line-height: 144%;
+  letter-spacing: 0.04em;
+  padding-left: 1.2rem;
+  margin-bottom: 4.5rem;
+}
