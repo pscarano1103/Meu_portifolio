@@ -1,17 +1,7 @@
 .sobre {
   display: flex;
   flex-direction: column;
-}
-
-.sobre__titulo {
-  color: var(--title);
-  font-weight: 600;
-  font-size: 1.5rem;
-  line-height: 1.8rem;
-  letter-spacing: 0.04em;
-  margin-bottom: 1.25rem;
-  margin-top: 4.5rem;
-  padding-left: 1.2rem;
+  margin-bottom: 4.5rem;
 }
 
 .sobre__descricao::before {
@@ -34,5 +24,4 @@
   line-height: 144%;
   letter-spacing: 0.04em;
   padding-left: 1.2rem;
-  margin-bottom: 4.5rem;
 }

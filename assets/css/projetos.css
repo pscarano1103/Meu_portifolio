@@ -1,0 +1,24 @@
+.projetos {
+  display: flex;
+  flex-direction: column;
+}
+
+.projetos__card {
+  box-shadow: 2px 2px 32px rgba(40, 38, 44, 0.15);
+  border-radius: 6px;
+  background: var(--card);
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+.card__titulo {
+  color: var(--title);
+  font-size: 1.25rem;
+  font-weight: 600;
+  line-height: 1.5rem;
+  margin-top: 1rem;
+  margin-bottom: 0.7rem;
+  padding: 0 1rem;
+}

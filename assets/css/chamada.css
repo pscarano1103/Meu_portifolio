@@ -2,11 +2,13 @@
   display: flex;
   flex-direction: column;
   height: calc(100vh -80px);
+  margin-bottom: 4.5rem;
 }
 
 .chamda__imagem {
-  margin-top: 2rem;
-  margin-bottom: 3.5rem;
+  margin-bottom: 1.5rem;
+  width: 300px;
+  margin: 0 auto;
 }
 
 .chamada__funcao {
@@ -41,7 +43,7 @@
 }
 
 .chamada__botao {
-  width: 42%;
+  width: 43%;
   align-self: center;
-  margin-top: 3rem;
+  margin-top: 1rem;
 }

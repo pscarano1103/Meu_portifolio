@@ -3,6 +3,7 @@
   --text: #1f2626;
   --title: #151717;
   --roxo: #5222d0;
+  --card: #f5f2fd;
 }
 
 body {
@@ -20,4 +21,14 @@ body {
   color: #dbffff;
   border-radius: 6px;
   padding: 12px 20px 13px;
+}
+
+.titulos {
+  color: var(--title);
+  font-weight: 600;
+  font-size: 1.5rem;
+  line-height: 1.8rem;
+  letter-spacing: 0.04em;
+  margin-bottom: 1.25rem;
+  padding-left: 1.2rem;
 }
